@@ -5,6 +5,20 @@ function esPositivo(num) {
   // Si el número es negativo ---> "Es negativo".
   // Si el número es 0, devuelve false.
   // Tu código:
+switch (true) {
+  case num>0:
+    return "Es positivo"
+  break;
+  case num<0:
+    return "Es negativo"
+  break;
+  case num===0:
+    return false
+  break;
+  
 }
+
+}
+console.log(esPositivo(0));
 
 module.exports = esPositivo;
